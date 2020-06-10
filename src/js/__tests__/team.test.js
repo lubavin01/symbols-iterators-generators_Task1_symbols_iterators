@@ -1,6 +1,6 @@
 import Team from '../team';
 
-test('1', () => {
+test('object has length', () => {
   const team = new Team();
-  expect([...team.elements]).toBeDefined();
+  expect([...team].length).toBeGreaterThan(0);
 })
